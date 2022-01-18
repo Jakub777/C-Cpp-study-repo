@@ -1,0 +1,1 @@
+Witaj w repozytorium do nauki C i C++
