@@ -1,0 +1,44 @@
+// tasks.json is used by default build tool in VSC, coderuner uses executor map
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "HelloWorldGcc",
+			"command": "C:\\msys64\\mingw64\\bin\\gcc.exe",
+			"args": [
+				// https://code.visualstudio.com/docs/editor/variables-reference
+				"-fdiagnostics-color=always",
+				"-g",
+				// jesli chce uzyc my_lib to musze odkomentowac
+				"${workspaceFolder}\\_NaukaProgramowania\\C_przyklady\\00_my_lib\\my_lib.c",
+				"-I", 
+				"${workspaceFolder}\\_NaukaProgramowania\\C_przyklady\\00_my_lib",
+				// TicTacToe
+				// "graphic.c", "user_input.c", "game_logic.c",
+				// "g_logic_go_back.c", "g_logic_move.c",
+				// cwiczonka struktury
+				// "plik1.c", "plik2.c", "plik2_a.c",
+				// cwiczonka extern static
+				// "plik1.c", "plik2.c", "plik3.c",
+
+				//plik wykonawczy 
+				"${file}", "-o", "${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"presentation": {
+				"clear": true
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "kompilator: C:\\msys64\\mingw64\\bin\\gcc.exe"
+		}
+	]
+}
