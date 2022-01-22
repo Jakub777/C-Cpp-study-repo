@@ -1,9 +1,9 @@
 #include <stdio.h>
+#include <my_lib.h>
+
 int main()
 {
-    // Null Pointer
-    int *ptr = NULL;
-      
-    printf("The value of ptr is %p", ptr);
+    puts("hello world");
+    my_lib_test();
     return 0;
 }

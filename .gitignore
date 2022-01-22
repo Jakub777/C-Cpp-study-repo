@@ -1,6 +1,5 @@
 # Unwanted folders
-.vscode/
-.git/
+someExample/
 
 # Prerequisites
 *.d

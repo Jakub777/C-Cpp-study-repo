@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
     my_weird_t t4 = {0};
     my_weird_t t5 = {0};
     my_weird_t* my_tab[TAB_SIZE] = {&t1, &t2, &t3, &t4, &t5};
-    system("cls");
+
     printf("size of my_weird_t: %d\n", sizeof(my_weird_t));
     for(int i = 0; i < TAB_SIZE; i++) 
     {   
