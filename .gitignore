@@ -1,3 +1,7 @@
+# Unwanted folders
+.vscode/
+.git/
+
 # Prerequisites
 *.d
 

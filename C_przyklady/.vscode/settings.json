@@ -1,9 +1,0 @@
-
-{
-    "files.associations": {
-        "stdio.h": "c",
-        "game_logic.h": "c",
-        "strukturki.h": "c"
-    },
-    "C_Cpp.intelliSenseEngineFallback": "Enabled"
-}
