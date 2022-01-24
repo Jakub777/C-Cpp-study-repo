@@ -1,4 +1,4 @@
-# Welcome to repositorium about learning C i C++
+# Welcome to repository about learning C i C++
 
 ### Worth mentioning:
 ###### GCC Part:
